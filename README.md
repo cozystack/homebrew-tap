@@ -32,6 +32,22 @@ This tap provides early access to Cozystack CLI tools. Formulas are maintained h
 brew tap cozystack/tap
 ```
 
+## Graduated to Homebrew Core
+
+The following Cozystack tools have been accepted into [homebrew/core](https://github.com/Homebrew/homebrew-core) and should be installed directly without this tap:
+
+### talm
+
+Talos Linux configuration manager. Install directly from Homebrew:
+
+```bash
+brew install talm
+```
+
+**Formula:** https://formulae.brew.sh/formula/talm#default
+
+**Repository:** https://github.com/cozystack/talm
+
 ## Available Formulas
 
 ### cozyhr
