@@ -2,7 +2,7 @@
 
 > **⚠️ Incubating Tap**: This is a community-maintained tap in incubation status. Formulas are provided as-is until they are accepted into the official [homebrew/core](https://github.com/Homebrew/homebrew-core) repository. No official Homebrew support is provided for third-party taps.
 
-[![Formulas](https://img.shields.io/badge/formulas-2-blue)](Formula/)
+[![Formulas](https://img.shields.io/badge/formulas-3-blue)](Formula/)
 [![Status](https://img.shields.io/badge/status-incubating-yellow)](https://docs.brew.sh/Taps)
 
 Official Homebrew tap for Cozystack tools.
@@ -71,6 +71,25 @@ brew install cozypkg
 
 **Repository:** https://github.com/cozystack/cozystack
 
+### cozyvalues-gen
+
+Code generator for Go structs, CRDs, and JSON schemas from annotated YAML.
+
+```bash
+brew install cozyvalues-gen
+```
+
+**Features:**
+
+- Generate Go structs from JSDoc-annotated values.yaml
+- Create Kubernetes CustomResourceDefinitions (CRDs)
+- Output JSON schemas for validation
+- Auto-update README.md Parameters section
+
+**Requirements:** Go toolchain (for generated code compilation)
+
+**Repository:** https://github.com/cozystack/cozyvalues-gen
+
 ## Usage
 
 After installation, check available commands:
@@ -78,6 +97,7 @@ After installation, check available commands:
 ```bash
 cozyhr --help
 cozypkg --help
+cozyvalues-gen --help
 ```
 
 ## Support and Contributing
