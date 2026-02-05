@@ -44,9 +44,9 @@ Talos Linux configuration manager. Install directly from Homebrew:
 brew install talm
 ```
 
-**Formula:** https://formulae.brew.sh/formula/talm#default
+**Formula:** [talm](https://formulae.brew.sh/formula/talm#default)
 
-**Repository:** https://github.com/cozystack/talm
+**Repository:** [cozystack/talm](https://github.com/cozystack/talm)
 
 ## Available Formulas
 
@@ -67,7 +67,7 @@ brew install cozyhr
 
 **Requirements:** Kubernetes cluster with Flux CD
 
-**Repository:** https://github.com/cozystack/cozyhr
+**Repository:** [cozystack/cozyhr](https://github.com/cozystack/cozyhr)
 
 ### cozypkg
 
@@ -85,7 +85,7 @@ brew install cozypkg
 
 **Requirements:** Kubernetes cluster with Cozystack installed
 
-**Repository:** https://github.com/cozystack/cozystack
+**Repository:** [cozystack/cozystack](https://github.com/cozystack/cozystack)
 
 ### cozyvalues-gen
 
@@ -104,7 +104,7 @@ brew install cozyvalues-gen
 
 **Requirements:** Go toolchain (for generated code compilation)
 
-**Repository:** https://github.com/cozystack/cozyvalues-gen
+**Repository:** [cozystack/cozyvalues-gen](https://github.com/cozystack/cozyvalues-gen)
 
 ## Usage
 
