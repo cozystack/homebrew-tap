@@ -2,7 +2,7 @@
 
 > **⚠️ Incubating Tap**: This is a community-maintained tap in incubation status. Formulas are provided as-is until they are accepted into the official [homebrew/core](https://github.com/Homebrew/homebrew-core) repository. No official Homebrew support is provided for third-party taps.
 
-[![Formulas](https://img.shields.io/badge/formulas-3-blue)](Formula/)
+[![Formulas](https://img.shields.io/badge/formulas-2-blue)](Formula/)
 [![Status](https://img.shields.io/badge/status-incubating-yellow)](https://docs.brew.sh/Taps)
 
 Official Homebrew tap for Cozystack tools.
@@ -48,26 +48,25 @@ brew install talm
 
 **Repository:** [cozystack/talm](https://github.com/cozystack/talm)
 
-## Available Formulas
-
 ### cozyhr
 
-Cozy wrapper around Helm and Flux CD for local development.
+Cozy wrapper around Helm and Flux CD for local development. Install directly from Homebrew:
 
 ```bash
 brew install cozyhr
 ```
 
-**Features:**
-- Render manifests from Helm charts with HelmRelease values
-- Apply changes to HelmRelease locally
-- Show diff between desired and current state
-- Manage HelmRelease resources (suspend, resume, delete)
-- Trigger reconciliation for HelmRelease
+If you previously installed cozyhr from this tap, migrate to the core version:
 
-**Requirements:** Kubernetes cluster with Flux CD
+```bash
+brew uninstall cozyhr && brew install cozyhr
+```
+
+**Formula:** [cozyhr](https://formulae.brew.sh/formula/cozyhr#default)
 
 **Repository:** [cozystack/cozyhr](https://github.com/cozystack/cozyhr)
+
+## Available Formulas
 
 ### cozypkg
 
@@ -111,7 +110,6 @@ brew install cozyvalues-gen
 After installation, check available commands:
 
 ```bash
-cozyhr --help
 cozypkg --help
 cozyvalues-gen --help
 ```

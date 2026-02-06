@@ -6,6 +6,9 @@ class Cozyhr < Formula
   license "Apache-2.0"
   head "https://github.com/cozystack/cozyhr.git", branch: "main"
 
+  deprecate! date: "2026-02-06", because: "it has been accepted into homebrew-core. " \
+    "Migrate with: brew uninstall cozyhr && brew install cozyhr"
+
   depends_on "go" => :build
 
   def install
